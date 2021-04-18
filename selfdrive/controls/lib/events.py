@@ -231,8 +231,8 @@ EVENTS: Dict[int, Dict[str, Union[Alert, Callable[[Any, messaging.SubMaster, boo
 
   EventName.startupMaster: {
     ET.PERMANENT: Alert(
-      "WARNING: This branch is not tested",
-      "Always keep hands on wheel and eyes on road",
+      "I trust that I am on the right path.",
+      "I am always headed in the right direction.",
       AlertStatus.userPrompt, AlertSize.mid,
       Priority.LOWER, VisualAlert.none, AudibleAlert.none, 0., 0., 15.),
   },
