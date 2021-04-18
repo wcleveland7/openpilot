@@ -138,8 +138,8 @@ class Controls:
 
     self.startup_event = get_startup_event(car_recognized, controller_available)
 
-    if not sounds_available:
-      self.events.add(EventName.soundsUnavailable, static=True)
+    #if not sounds_available:
+    #  self.events.add(EventName.soundsUnavailable, static=True)
     if community_feature_disallowed:
       self.events.add(EventName.communityFeatureDisallowed, static=True)
     if not car_recognized:
